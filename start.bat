@@ -1,6 +1,9 @@
 @echo off
+:: Ensure the script runs in its own directory (important when running as Admin)
+cd /d "%~dp0"
+
 echo ========================================
-echo       EventViewer Pro - Startup
+echo       EventViewer 2 - Startup
 echo ========================================
 echo.
 
