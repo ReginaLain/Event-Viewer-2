@@ -18,7 +18,9 @@
 ### 🚀 One-Click Quick Start
 1. **Download** the repository and unzip it.
 2. Double-click the **`start.bat`** file.
-   - *The script will install dependencies and automatically open the application in your browser.*
+   - *The script will automatically request **Administrator privileges**.*
+   - *It will check for and install **Python** and **Node.js** via winget if they are missing.*
+   - *It will install all dependencies and open the application in your browser.*
 
 ---
 
@@ -36,13 +38,15 @@
 ### 🚀 Запуск в один клик
 1. **Скачайте** архив с проектом и распакуйте его.
 2. Просто запустите файл **`start.bat`** двойным кликом.
-   - *Скрипт сам установит нужные компоненты и откроет приложение в вашем браузере.*
+   - *Скрипт автоматически запросит **права администратора**.*
+   - *Он сам проверит наличие и установит **Python** и **Node.js** через winget.*
+   - *Скрипт установит нужные компоненты и откроет приложение в вашем браузере.*
 
 ---
 
 ### ⚠️ Note / Примечание
-To clear **System** or **Security** logs, you must run the script with **Administrator privileges**.
-Для очистки журналов **System** или **Security** необходимо запускать скрипт с **правами администратора**.
+The script requires **Administrator privileges** to install system components and clear System/Security logs.
+Скрипту требуются **права администратора** для установки системных компонентов и очистки журналов System/Security.
 
 ### License
 MIT
