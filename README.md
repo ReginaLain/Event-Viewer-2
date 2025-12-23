@@ -1,4 +1,4 @@
-# EventViewer Pro 🛠️
+# EventViewer 2 🛠️
 
 [English](#english) | [Русский](#русский)
 
